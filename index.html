@@ -281,7 +281,6 @@
 	<!-- Видео -->
 	<section class="video" id="video">
 		<div class="container relative">
-			
 			<div class="row">
 				<div class="col-sm-4">
 					<h3>Посмотрите, как мы <br>создаем платья для Вас</h3>
@@ -289,7 +288,7 @@
 				</div>
 				<div class="col-sm-8">
 					<div class="video_wrapper">
-						<video controls="contols" poster="img/video.jpg" id="mainVideo" src="main.mp4"></video>
+						<video controls="contols" poster="img/video.jpg" id="mainVideo" src="90.mp4"></video>
 					</div>
 				</div>
 			</div>
@@ -307,7 +306,7 @@
 				<div class="col-sm-6 service_text">
 					<h4>Удобный способ составления <br>заказа по телефону</h4>
 					<p>Вы связываетесь с нашим менеджером для консультации. Мы выявляем все потребности <br>и подбираем самые необходимые позиции товара <br>из каталога или создаем индивидуально под Вас. Вам не нужно тратить время на поездки, поможем сделать заказ по телефону и доставим в любую точку Украины.</p>
-					<a href="#service1FormWrapper" class="popup main_btn">Консультация</a>
+					<a href="#service1FormWrapper" class="popup main_btn" style="max-width: 270px;">Получить консультацию</a>
 				</div>
 			</div>
 			<div class="row">
@@ -589,10 +588,23 @@
 		</div>
 	</div>
 	<div class="hidden">
+		<div class="form_wrapper" id="mainFormWrapper1">
+			<h6>Заполните форму,</h6>
+			<p>и наше менеджер перезвонит Вам в течении 15 мин для подробной консультации</p>
+			<form method="post" class="form" id="mainForm1" action="mail.php">
+				<input type="hidden" name="whatform" value="Форма - Узнать подробнее (главный экран)" />
+				<input type="text" name="name" placeholder="Ваше имя" />
+				<input type="tel" name="phone" class="phone" placeholder="Ваш телефон" />
+				<input type="email" name="email" placeholder="Ваш e-mail" />
+				<button class="main_btn blue_btn">Узнать подробнее</button>
+			</form>
+		</div>
+	</div>
+	<div class="hidden">
 		<div class="form_wrapper" id="mainFormWrapper2">
 			<h6>Заполните форму,</h6>
 			<p>и мы отправим фотокаталог платьев с ценами на Вашу почту в течении 15 мин</p>
-			<form method="post" class="form" id="mainForm1" action="mail.php">
+			<form method="post" class="form" id="mainForm2" action="mail.php">
 				<input type="hidden" name="whatform" value="Форма - ПОЛУЧИТЬ ФОТОКАТАЛОГ С ЦЕНАМИ" />
 				<input type="text" name="name" placeholder="Ваше имя" />
 				<input type="tel" name="phone" class="phone" placeholder="Ваш телефон" />
