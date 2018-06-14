@@ -285,6 +285,7 @@ footer .row {
 }
 .main_btn {
 	height: 60px;
+	width: 100%;
 	line-height: 60px;
 	display: inline-block;
 	text-align: center;
@@ -437,7 +438,7 @@ header .top_head {
 	-webkit-align-items: center;
 }
 header .main_btn {
-	width: 170px;
+	width: 200px;
 }
 header .main_head {
 	position: relative;
@@ -538,7 +539,9 @@ header .button_wrapper.button_wrapper2 {
 }
 .logo img {
 	width: 100%;
-	max-width: 170px;
+	max-width: 140px;
+	position: relative;
+	top: -10px;
 }
 h1{
 	font-size: 3.3rem;
@@ -659,7 +662,8 @@ h2 {
 	margin-bottom: 2rem;
 }
 .product .popup {
-	max-width: 170px;
+	width: 200px;
+	max-width: 200px;
 }
 .product .colors {
 	margin-bottom: 2.5rem;
@@ -765,7 +769,7 @@ h2 {
 	margin: 20px 0;
 }
 .service .popup {
-	max-width: 170px;
+	max-width: 200px;
 }
 .service img {
 	margin-top: 50px;
@@ -812,7 +816,7 @@ h2 {
 	margin-bottom: 3rem;
 }
 .contact .popup {
-	max-width: 170px;
+	max-width: 200px;
 }
 .photo .prev {
 	bottom: -100px;
@@ -874,5 +878,5 @@ h2 {
 	text-align: center;
 }
 .step .popup {
-	max-width: 170px;
+	max-width: 200px;
 }
