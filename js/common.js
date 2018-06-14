@@ -10,12 +10,12 @@ $(document).ready(function() {
 		});
  	});
 
-	if($(window).width() < 768){
-		$('.vp').attr('content', 'width=1300');
-	}
-	else {
-		$('.vp').attr('content', 'width=1500');
-	}
+	// if($(window).width() < 768){
+	// 	$('.vp').attr('content', 'width=1300');
+	// }
+	// else {
+	// 	$('.vp').attr('content', 'width=1500');
+	// }
 
 	function updater(d, h, m, s) {
 	  // День сброса - 5 августа 2017 года (и далее каждые три дня)
